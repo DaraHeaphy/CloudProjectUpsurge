@@ -18,7 +18,7 @@ const fileDetails = document.querySelector("#file-details");
 const emailForm = document.querySelector("#email-form");
 const toastAlert = document.querySelector(".toast-alert");
 
-const host = "https://upsurge-holdyourbit.herokuapp.com";
+const host = "http://localhost:8080";
 const uploadURL = `${host}/api/files/upload`;
 const emailURL = `${host}/api/files/sendemail`;
 
