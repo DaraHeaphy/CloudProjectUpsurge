@@ -7,7 +7,7 @@ const connectDB = require('./config/database');
 const router = require('./routes/index');
 const { required } = require('joi');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 const app = express();
 const rateLimiter = rateLimit({
     windowMs: 60 * 60 * 1000,

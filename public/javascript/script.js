@@ -18,9 +18,9 @@ const fileDetails = document.querySelector("#file-details");
 const emailForm = document.querySelector("#email-form");
 const toastAlert = document.querySelector(".toast-alert");
 
-const host = "http://localhost:8080";
-const uploadURL = `${host}/api/files/upload`;
-const emailURL = `${host}/api/files/sendemail`;
+const host = window.location.hostname;
+const uploadURL = `/api/files/upload`;
+const emailURL = `/api/files/sendemail`;
 
 function add(dragZone)
 {
